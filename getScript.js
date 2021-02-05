@@ -9,9 +9,8 @@ const btnGetGarageId = document.querySelector('#btnGetGarageId');
 const btnGetCarId = document.querySelector('#btnGetCarId');
 
 // inputs
-
-const inputGetGarageId = document.querySelector('#getGarageId');
-const inputGetCarId = document.querySelector('#getCarId');
+const inputGetGarageId = document.querySelector('#getGarageId').value;
+const inputGetCarId = document.querySelector('#getCarId').value;
 
 
   /////////////////////
@@ -80,7 +79,7 @@ const getCars = () => {
 
 const checkGarageId = () => {
 
-   const id = inputGetGarageId.value;
+   const id = inputGetGarageId;
 
     if (id == "") {
         console.error(`[READ] no id entered for garage`);
@@ -129,7 +128,7 @@ const getGarageId = (id) => {
 
 const checkCarId = () => {
 
-    const id = inputGetGarageId.value;
+    const id = inputGetGarageId;
  
      if (id == "") {
          console.error(`[READ] no id entered for garage`);

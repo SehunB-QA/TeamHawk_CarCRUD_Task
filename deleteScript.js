@@ -1,3 +1,4 @@
+'use strict'
 
 // buttons
 const btnDeleteGarageId = document.querySelector('#btnDeleteGarageId');
