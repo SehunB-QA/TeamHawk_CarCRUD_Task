@@ -1,6 +1,6 @@
 const body = document.querySelector('body');
 
-const garageTables = document.querySelector('div');
+const garageTables = document.createElement('div');
 garageTables.id = "garageTables";
 
 const makeTable = (name, data)=>{
