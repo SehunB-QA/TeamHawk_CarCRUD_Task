@@ -18,10 +18,10 @@ const checkDeleteGarageId = () => {
     const id = inputDeleteGarageId.value;
 
     if (id == "") {
-        console.error(`[READ] no id entered for garage`);
+        console.error(`[DELETE] no id entered for garage`);
         return;
     } else if (Number.isInteger(Number(id)) == false) {
-        console.error(`[READ] error '${id}' is not an integer`);
+        console.error(`[DELETE] error '${id}' is not an integer`);
         return;
     } else {
         deleteGarageId(id);
@@ -53,10 +53,10 @@ const checkDeleteCarId = () => {
     const id = inputDeleteCarId.value;
 
     if (id == "") {
-        console.error(`[READ] no id entered for garage`);
+        console.error(`[DELETE] no id entered for garage`);
         return;
     } else if (Number.isInteger(Number(id)) == false) {
-        console.error(`[READ] error '${id}' is not an integer`);
+        console.error(`[DELETE] error '${id}' is not an integer`);
         return;
     } else {
         deleteCarId(id);
