@@ -58,7 +58,7 @@ window.onload = function(){
 
     createButton.addEventListener("click",create)
     clearButton.addEventListener("click", clearText);
-    deleteButton.addEventListener("click", deleteCRUD)
-    garageID.addEventListener("click", deleteGarageByID)
+    deleteButton.addEventListener("click", deleteGarageByID)
+   // garageID.addEventListener("click", deleteGarageByID)
 
 } 
