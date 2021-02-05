@@ -10,14 +10,19 @@
   </head>
   <body>
     <form id="CRUD">
-        <label for="fname"  >First name:</label><br>
+        <!-- <label for="fname"  >First name:</label><br>
         <input type="text" id="fname" name="fname"><br>
         <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname">
+        <input type="text" id="lname" name="lname"> -->
+
+        <label for="garageID"  >Garage ID:</label><br>
+        <input type="text" id="garageIDInput" name="garageIDInput"><br>
+       
+
       </form>
-      <input class ="btn btn-primary" type="submit" id="postButton" onclick="create" value="Create" ></button>
-      <input class ="btn btn-danger" type="submit" id="deleteButton" onclick="deleteCRUD" value="Delete" ></button>
-    <button type="button" id="clearButton" class="btn btn-danger" onclick="clearText">Clear</button>
+      <!-- <input class ="btn btn-primary" type="submit" id="postButton" onclick="create" value="Create" ></button> -->
+      <input class ="btn btn-danger" type="submit" id="deleteButton" onclick="deleteGarageByID" value="Delete" ></button>
+    <!-- <button type="button" id="clearButton" class="btn btn-danger" onclick="clearText">Clear</button> -->
 
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
